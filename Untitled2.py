@@ -45,7 +45,7 @@ def answer():
     global number
     tk.Label(win,text='正确答案是:%d'%(number),width=18,bg='lightblue').place(x=130,y=0)
     
-win=tk.Tk(className='王杰安——猜数字游戏^v^')
+win=tk.Tk(className='猜数字游戏^v^')
 win.geometry('400x100')
 win['background']='lightblue'
 tk.Label(win,text='请输入100到999的整数：',bg='lightblue').place(x=0,y=30)
